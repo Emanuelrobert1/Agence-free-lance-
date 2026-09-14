@@ -4,6 +4,8 @@
 
 **Agence Freelance Pro** est un site web professionnel complet pour une agence de freelance spécialisée dans le développement web, le design et le marketing digital.
 
+🌐 **Site en ligne**: https://emanuelrobert1.github.io/Agence-free-lance-/
+
 ## ✨ Fonctionnalités
 
 ### 1. **Navigation Professionnelle**
@@ -105,6 +107,7 @@ Le site est complètement responsive et optimisé pour:
 2. **Ouvrir le fichier**
    - Ouvrir `index.html` dans un navigateur web
    - Ou utiliser un serveur local (Live Server, Python http.server, etc.)
+   - **Ou accéder directement au site en ligne**: https://emanuelrobert1.github.io/Agence-free-lance-/
 
 3. **Personnalisation**
    - Modifier les textes et contenus dans `index.html`
@@ -163,6 +166,7 @@ Ce projet est libre d'utilisation pour usage personnel ou commercial.
 Pour toute question ou modification:
 - Email: contact@agencefreelance.pro
 - Téléphone: +33 (0) 1 23 45 67 89
+- Site: https://emanuelrobert1.github.io/Agence-free-lance-/
 
 ## 🏗️ Améliorations Futures
 
@@ -179,3 +183,5 @@ Pour toute question ou modification:
 **Créé avec ❤️ par Agence Freelance Pro**
 
 © 2024 Tous droits réservés.
+
+Site en ligne: https://emanuelrobert1.github.io/Agence-free-lance-/
