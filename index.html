@@ -277,12 +277,13 @@
 
                 </div>
 
+                <!-- Formulaire Principal de Contact -->
                 <form class="contact-form" id="contactForm">
-                    <input type="text" placeholder="Votre Nom" required>
-                    <input type="email" placeholder="Votre Email" required>
-                    <input type="tel" placeholder="Votre Téléphone">
-                    <input type="text" placeholder="Sujet">
-                    <textarea placeholder="Votre Message" rows="5" required></textarea>
+                    <input type="text" placeholder="Votre Nom" name="name" required>
+                    <input type="email" placeholder="Votre Email" name="email" required>
+                    <input type="tel" placeholder="Votre Téléphone" name="phone">
+                    <input type="text" placeholder="Sujet" name="subject">
+                    <textarea placeholder="Votre Message" name="message" rows="5" required></textarea>
                     
                     <!-- Champ pour uploader un fichier -->
                     <div class="file-upload-wrapper">
@@ -296,6 +297,30 @@
                     
                     <button type="submit" class="btn btn-primary">Envoyer le Message</button>
                 </form>
+
+                <!-- Formulaire Formspree avec Upload -->
+                <hr style="margin: 30px 0; border: none; border-top: 1px solid #ddd;">
+                <h3 style="text-align: center; margin: 20px 0;">Ou envoyez un fichier directement</h3>
+                
+                <form
+                  action="https://formspree.io/f/mqpkvyao"
+                  method="POST"
+                  enctype="multipart/form-data"
+                  style="background: #f9f9f9; padding: 20px; border-radius: 8px; margin-top: 20px;"
+                >
+                  <label style="display: block; margin-bottom: 15px;">
+                    <strong>Votre Email:</strong>
+                    <input type="email" name="email" required style="width: 100%; padding: 10px; margin-top: 5px; border: 1px solid #ddd; border-radius: 5px; box-sizing: border-box;">
+                  </label>
+                  <br>
+                  <label style="display: block; margin-bottom: 15px;">
+                    <strong>Joindre un fichier:</strong>
+                    <input type="file" name="upload" style="display: block; margin-top: 5px; padding: 10px; border: 1px solid #ddd; border-radius: 5px;">
+                  </label>
+                  <br>
+                  <button type="submit" class="btn btn-primary" style="width: 100%;">Envoyer</button>
+                </form>
+
             </div>
         </div>
     </section>
