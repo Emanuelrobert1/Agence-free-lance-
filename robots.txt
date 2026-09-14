@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+Disallow: /admin
+Disallow: /private
+
+Sitemap: https://emanuelrobert1.github.io/Agence-free-lance-/sitemap.xml
