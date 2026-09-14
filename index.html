@@ -256,12 +256,44 @@
                         </div>
                     </div>
                 </div>
-                <form class="contact-form">
+
+                <!-- Bloc Contact Rapide -->
+                <div class="contact-rapide" style="display:flex; gap:15px; flex-wrap:wrap; margin:20px 0;">
+                  
+                  <!-- WhatsApp -->
+                  <a href="https://wa.me/21655061653" target="_blank" style="padding:10px 15px; background:#25D366; color:#fff; text-decoration:none; border-radius:8px; font-weight:600;">
+                    💬 WhatsApp
+                  </a>
+
+                  <!-- Email Outlook -->
+                  <a href="mailto:service.freelance25@outlook.com" style="padding:10px 15px; background:#0078D4; color:#fff; text-decoration:none; border-radius:8px; font-weight:600;">
+                    📧 Email
+                  </a>
+
+                  <!-- Appel Téléphonique -->
+                  <a href="tel:+21655061653" style="padding:10px 15px; background:#555; color:#fff; text-decoration:none; border-radius:8px; font-weight:600;">
+                    📞 Appeler
+                  </a>
+
+                </div>
+
+                <form class="contact-form" id="contactForm">
                     <input type="text" placeholder="Votre Nom" required>
                     <input type="email" placeholder="Votre Email" required>
                     <input type="tel" placeholder="Votre Téléphone">
                     <input type="text" placeholder="Sujet">
                     <textarea placeholder="Votre Message" rows="5" required></textarea>
+                    
+                    <!-- Champ pour uploader un fichier -->
+                    <div class="file-upload-wrapper">
+                        <label for="fileUpload" class="file-upload-label">
+                            <i class="fas fa-cloud-upload-alt"></i>
+                            Joindre un fichier (optionnel)
+                        </label>
+                        <input type="file" id="fileUpload" name="fileUpload" class="file-upload-input" accept=".pdf,.doc,.docx,.jpg,.jpeg,.png,.zip" multiple>
+                        <div id="fileList" class="file-list"></div>
+                    </div>
+                    
                     <button type="submit" class="btn btn-primary">Envoyer le Message</button>
                 </form>
             </div>
